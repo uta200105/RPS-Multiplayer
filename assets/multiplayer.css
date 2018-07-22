@@ -1,4 +1,5 @@
 body {
+
     
     background-color: white;
 }
@@ -57,17 +58,48 @@ h4 {
     margin-top: 10px;
 }
 
-.spanResults {
+#scoreOne {
 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: gray;
-    font-size: 25px;
+    color: #bfeef0;
+    font-size: 30px;
     text-align: center;
     border: solid; 
-    width: 250px;
-    height: 250px;
-    margin-left: 340px;
+    width: 175px;
+    height: 100px;
+    margin-left: 250px;
     margin-top: 40px;
+}
+
+scoreTwo {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(241, 193, 193);
+    font-size: 30px;
+    text-align: center;
+    border: solid; 
+    width: 175px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: -100px;
+    
+}
+
+#allButtons {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #bfeef0;
+    font-size: 25px;
+    text-align: center;
+    border: solid;
+    float: left;
+    display: block;
+    width: 225px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: -225px;
+    padding-top: 30px;
+    
 }
 
 #playerOne {
@@ -80,7 +112,7 @@ h4 {
     float: left;
     display: block;
     width: 225px;
-    height: 400px;
+    height: 50px;
     
 }
 
@@ -94,7 +126,23 @@ h4 {
     float: right;
     display: block;
     width: 225px;
+    height: 50px;
+}
+
+#playerTwoResults {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(241, 193, 193);
+    font-size: 25px;
+    text-align: center;
+    border: solid;
+    float: right;
+    display: block;
+    width: 225px;
     height: 400px;
+    margin-right: -225px;
+    margin-top: 60px;
+    
 }
 
 form {
@@ -112,11 +160,52 @@ form {
     padding: 10px;
 }
 
-.images {
+#bPaper {
 
-    display: inline-block;
-
+   background-image: url("./images/paper.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%; 
+   width: 100px;
+   height: 100px;
+   border-radius: 8px;
+   
 }
+
+#bRock {
+
+    background-image: url("./images/rock.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    
+ }
+
+ #bScissors {
+
+    background-image: url("./images/scissors.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    
+ }
+
+ .alert-secondary {
+
+    margin-top: 275px;
+    margin-left: 230px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+
+ }
 
 
 
